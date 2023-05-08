@@ -6,7 +6,7 @@ def parte1
 
 
 
-def parte_2():
+def parte2():
     risposta_3 = input("E DI BERE QUALCOSA? (sì o no)")
     if risposta_3 == "sì" :
         risposta_3a = int(input("SCEGLI: \n1_ TE' \n2_CAFFE' \n3_CIOCCOLATA?"))
@@ -17,10 +17,7 @@ def parte_2():
         elif risposta_3a == 3:
             return "FATEVI 'STA CIOCCOLATA"
     else:
-        return "no"
-        
-x = parte_2()
-print (x)
+        return "no"       
 
 
 def parte3():
