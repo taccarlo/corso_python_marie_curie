@@ -21,4 +21,23 @@ def parte_2():
         
 x = parte_2()
 print (x)
+
+
+def terzaParte():
+    n=0
+    print("Allora svaghiamoci un po'. Cos'altro ti va di fare?")
+    while True:
+        ris=int(input("è una cosa che va fare anche a me: se sì digito 1, altrimenti 0"))
+        if ris==1:
+            print("E facciamolo insieme, dai")
+            print("svagatevi un po' insieme")
+            break
+        else: 
+            n+=1
+            if n>=6:
+                print("scegli fra tutte le opzioni quella che ti appare meno disumana. Fattela piacere")
+                print("svagatevi un po' insieme")
+                break
+    return("Siete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa")
+print(terzaParte())
     
