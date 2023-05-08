@@ -1,6 +1,17 @@
 
-def parte1
-
+def parte1():
+    print("componi il numero di telefono della persona")
+    while True:
+        ris=int(input("è in casa? Se si digita 1, altrimenti 0"))
+        if ris==1:
+            ris=int(input("Ti va di mangiare qualcosa insieme? Se si digita 1, altrimenti 0"))
+            if ris==1:
+                print("mangiate qualcosa insieme")
+                return "Siete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa"
+                break
+            else:
+                return parte2()
+print(parte1())                    
 
 
 
@@ -39,5 +50,5 @@ def parte3():
                 print("svagatevi un po' insieme")
                 break
     return("Siete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa")
-print(terzaParte())
+print(parte3())
     
