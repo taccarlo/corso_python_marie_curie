@@ -14,7 +14,7 @@ def parte1():
                     
                     
 def parte2():
-    risposta_3 = input("E DI BERE QUALCOSA? (sì o no)")
+    risposta_3 = input("E DI BERE QUALCOSA? Se si digita 1, altrimenti 0 ")
     if risposta_3 == "sì" :
         risposta_3a = int(input("SCEGLI: \n1_ TE' \n2_CAFFE' \n3_CIOCCOLATA?"))
         if risposta_3a == 1:
