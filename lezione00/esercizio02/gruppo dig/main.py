@@ -11,24 +11,20 @@ def parte1():
                 break
             else:
                 return parte2()
-print(parte1())                    
-
-
-
-
-
+                    
+                    
 def parte2():
     risposta_3 = input("E DI BERE QUALCOSA? (sì o no)")
     if risposta_3 == "sì" :
         risposta_3a = int(input("SCEGLI: \n1_ TE' \n2_CAFFE' \n3_CIOCCOLATA?"))
         if risposta_3a == 1:
-            return "FATEVI 'STO TE'"
+            return ("FATEVI 'STO TE' \nSiete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa ")
         elif risposta_3a == 2:
-            return "FATEVI 'STO CAFFE'"
+            return ("FATEVI 'STO CAFFE' \nSiete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa ")
         elif risposta_3a == 3:
-            return "FATEVI 'STA CIOCCOLATA"
+            return ("FATEVI 'STA CIOCCOLATA \nSiete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa ")
     else:
-        return "no"       
+        return parte3()       
 
 
 def parte3():
@@ -47,5 +43,7 @@ def parte3():
                 print("svagatevi un po' insieme")
                 break
     return("Siete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa")
-print(parte3())
+
+
+print(parte1())
     
