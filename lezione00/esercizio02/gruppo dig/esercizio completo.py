@@ -13,9 +13,9 @@ def parte1():
                     
                     
 def parte2():
-    risposta_3 = input("E DI BERE QUALCOSA? Se si digita 1, altrimenti 0 ")
+    risposta_3 = input("e di bere qualcosa? Se si digita 1, altrimenti 0 ")
     if risposta_3 == 1 :
-        risposta_3a = int(input("SCEGLI: \n1_ TE' \n2_CAFFE' \n3_CIOCCOLATA"))
+        risposta_3a = int(input("scegli: \n1_ tè \n2_caffè \n3_cioccolata"))
         if risposta_3a == 1:
             return ("FATEVI 'STO TE' -> \nSiete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa ")
         elif risposta_3a == 2:

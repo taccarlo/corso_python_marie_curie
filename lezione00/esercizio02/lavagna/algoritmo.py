@@ -45,7 +45,21 @@ def offertaAttivita():
     '''
     In questa funzione chiediamo per 6 volte al massimo se ci va di fare qualcosa
     '''
+    n = 0
+    print("Allora, svaghiamoci un po..")
+
+    while(n<6):
+        print("... Cos'altro ti va di fare?")
+        risp = int(input("è una cosa che va di fare anche a me?  1=sì 0=no "))
+        if(risp==sì):
+            print("E facciamolo insieme, dai... Svagatevi un po' insieme")
+            return
+        n = n+1
+    print("Scegli fra tutte le opzioni quella che ti appare meno disumana, fattela piacere, svagatevi un po' insieme")
     
+
+
+        
    
 risp1 = incipit()
 if(risp1==False):
