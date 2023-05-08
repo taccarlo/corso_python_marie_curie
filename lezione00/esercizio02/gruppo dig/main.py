@@ -1,5 +1,5 @@
 
-
+def parte1
 
 
 
@@ -23,7 +23,7 @@ x = parte_2()
 print (x)
 
 
-def terzaParte():
+def parte3():
     n=0
     print("Allora svaghiamoci un po'. Cos'altro ti va di fare?")
     while True:
