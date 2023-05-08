@@ -1,6 +1,5 @@
 
 def parte1():
-    print("componi il numero di telefono della persona")
     while True:
         ris=int(input("componi il numero di telefono della persona \nè in casa? Se si digita 1, altrimenti 0"))
         if ris==1:
