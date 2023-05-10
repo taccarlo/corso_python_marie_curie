@@ -7,7 +7,7 @@ def parte1():
             if ris==1:
                 print("mangiate qualcosa insieme")
                 return "Siete diventati amici. Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa"
-                break
+                
             else:
                 return parte2()
                     
