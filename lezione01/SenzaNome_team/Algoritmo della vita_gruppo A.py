@@ -1,4 +1,5 @@
 def funzione1():
+    print("La persona seguele elementari e le medie")
     anno_s = 1 #anno_s = anno superiori
     bocciature = 0 #bocciature = numero bocciature
     while anno_s<=5 and bocciature<3:
