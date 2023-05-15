@@ -20,7 +20,7 @@ def funzione1():
                
                
                
-def funzione2:
+def funzione2():
     lavoro=0
     
     while lavoro<=20:
@@ -44,13 +44,9 @@ def funzione2:
 
 #funzione 3, christian
 def funzione3():
-   if infortunio==0:
-        print("ultimi anni di lavoro")
-   promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
-   while promozioni >3:
-    elif print("ultimi anni di lavoro")
+
+    print("ultimi anni di lavoro")
     promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
     if promozioni >3:
-        print("capo di azienda \n pensione")
-   elif print("pensione")
-return
+        return "capo di azienda"
+    return "pensione"
