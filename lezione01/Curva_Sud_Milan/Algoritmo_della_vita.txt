@@ -24,8 +24,6 @@ def Lavoro():
     	else:
         	print("Pensione")
 Lavoro()
-
-
 def Pensione():
     infortunio=int(input("inserire se l'infortunio è delibitante oppure no    delibitante=0     non delibitante=1"))
     if infortunio==0:
