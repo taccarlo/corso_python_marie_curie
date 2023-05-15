@@ -1,8 +1,4 @@
 
-
-
-
-
 def funzione1():
     print("La persona è nata!")
     print("La persona segtue le elementari e le medie")
@@ -21,6 +17,7 @@ def funzione1():
             if anno_superiori == 5:
                 return funzione2
                 
+
                
                
                
@@ -36,3 +33,21 @@ def funzione2:
     else:
         return funzione3
 
+
+
+
+
+
+
+
+
+
+
+#funzione 3, christian
+def funzione3():
+    elif print("ultimi anni di lavoro")
+    promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
+    if promozioni >3:
+        print("capo di azienda \n pensione")
+        elif print("pensione")
+return
