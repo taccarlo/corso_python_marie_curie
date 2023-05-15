@@ -6,7 +6,10 @@ def funzione1():
         domanda_b = int(input("sei stato bocciato?\n( 1 se SI', 0 se NO )")) #domanda_b = input che serve per capire se è stato bocciato oppure no
         if domanda_b == 0:
             anno_s = anno_s +1
-    return funzione2
+        else:
+            bocciature = bocciature+1
+        elif bocciature>3:
+            return funzione2
     
 def funzione2():
     return funzione3()
