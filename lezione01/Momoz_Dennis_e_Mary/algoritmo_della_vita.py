@@ -20,7 +20,14 @@ def Funzione_1:
             if anno_superiori ==5:
                 print("Finalmente vado a lavorare")
         break
-        
+
+Anni di lavoro=0
+while Anni di lavoro < 20:
+    Anni di lavoro = Anni di lavoro + 1
+    print("L'anno lavorativo si conclude")
+else:
+    print("Subisci un infortunio debilitante")
+
         
         
         
