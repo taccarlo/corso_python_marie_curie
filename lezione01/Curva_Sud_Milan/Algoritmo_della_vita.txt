@@ -1,13 +1,23 @@
-def scuola:
+print("La persona è nata!")
+def Scuola():
+    print("La persona segue le elementari e le medie")
+    n_bocciature=0
+    anni_superiori=0
+    while(anni_superiori<=5):
+        print("Segue",anni_superiori,"anni di superiori")
+        Domanda1=int(input("E' mai stato bocciato? 1=Sì 0=No"))
+        if(Domanda1==0):
+            anni_superiori=anni_superiori+1
+        else:
+            n_bocciature=n_bocciature+1 
+        elif(n_bocciature>=3):
+            return(lavoro())
+Scuola()
+def lavoro():
 
 
 
-def lavoro:
 
-
-
-def pensione:
-#def_3
 def pensione():
     infortunio=int(input("inserire se l'infortunio è delibitante oppure no    delibitante=0     non delibitante=1"))
     if infortunio==0:
