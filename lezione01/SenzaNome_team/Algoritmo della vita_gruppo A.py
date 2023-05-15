@@ -13,7 +13,7 @@ def funzione1():
     
 def funzione2():
     n = 0
-    while n>=20:
+    while n<20:
         n=n+1
         print("anno di servizio", n)
     
@@ -27,7 +27,7 @@ def funzione2():
 def funzione3():
     promozioni = int(input("quante promozioni?"))
     if promozioni>3:
-        print ("congratulazioni sei un capo di azienda")
+        print ("capo di azienda, congratulazioni!")
     return 'pensione'
 
 print("La persona è nata")

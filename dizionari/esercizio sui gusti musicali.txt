@@ -1,0 +1,42 @@
+Eccoti un'altra idea per un esercizio di programmazione che richiede lo sviluppo di tre funzioni distinte:
+
+**Descrizione dell'esercizio**
+
+Si desidera sviluppare un programma che aiuta gli utenti a creare una playlist musicale personalizzata in base ai loro gusti. Il programma utilizzerà tre funzioni distinte per ottenere l'input dell'utente, elaborare le preferenze musicali e creare la playlist.
+
+**Specifiche**
+
+1. La funzione `get_music_preferences()` chiede all'utente di inserire una serie di preferenze musicali, ad esempio "Che genere musicale preferisci?", "Quali sono i tuoi artisti preferiti?", "Qual è il tuo stato d'animo attuale?". La funzione restituisce le risposte dell'utente sotto forma di un dizionario.
+
+2. La funzione `search_songs(preferences)` utilizza le preferenze musicali inserite dall'utente per cercare una serie di brani musicali in base ai criteri specificati. Ad esempio, se l'utente ha specificato di amare il genere rock e gli artisti Foo Fighters e Pearl Jam, la funzione potrebbe cercare brani di rock alternativo di band simili a queste. La funzione restituisce una lista di brani musicali che soddisfano i criteri di ricerca.
+
+3. La funzione `create_playlist(songs)` utilizza la lista di brani musicali ottenuta dalla funzione precedente per creare una playlist personalizzata. La playlist deve essere composta da almeno 10 brani e deve essere salvata su un file di testo.
+
+4. Il programma deve utilizzare le tre funzioni descritte sopra per ottenere le preferenze musicali dell'utente, cercare i brani musicali corrispondenti e creare la playlist personalizzata.
+
+**Esempio di output**
+
+```
+Che genere musicale preferisci? Rock
+Quali sono i tuoi artisti preferiti? Foo Fighters, Pearl Jam
+Qual è il tuo stato d'animo attuale? Felice
+
+Ecco la tua playlist personalizzata:
+
+1. "Everlong" - Foo Fighters
+2. "Alive" - Pearl Jam
+3. "All My Life" - Foo Fighters
+4. "Jeremy" - Pearl Jam
+5. "Learn to Fly" - Foo Fighters
+6. "Daughter" - Pearl Jam
+7. "Monkey Wrench" - Foo Fighters
+8. "Black" - Pearl Jam
+9. "The Pretender" - Foo Fighters
+10. "Better Man" - Pearl Jam
+
+La tua playlist è stata salvata su file.
+```
+
+**Note**
+
+Assicurati di utilizzare una libreria musicale o un API per cercare i brani musicali in base alle preferenze dell'utente. Inoltre, puoi implementare funzionalità aggiuntive, come la possibilità di salvare la playlist su Spotify o su altre piattaforme di streaming musicale.
