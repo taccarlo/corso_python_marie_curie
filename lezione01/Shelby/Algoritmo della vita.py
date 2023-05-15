@@ -20,7 +20,7 @@ def funzione1():
                
                
                
-def funzione2:
+def funzione2():
     lavoro=0
     
     while lavoro<=20:
