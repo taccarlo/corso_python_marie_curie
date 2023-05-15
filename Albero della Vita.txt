@@ -1,9 +1,0 @@
-def scuola:
-
-
-
-def lavoro:
-
-
-
-def pensione:
