@@ -7,3 +7,20 @@ def lavoro:
 
 
 def pensione:
+#def_3
+def pensione():
+    infortunio=int(input("inserire se l'infortunio è delibitante oppure no    delibitante=0     non delibitante=1"))
+    if infortunio==0:
+        print("pensione")
+    if infortunio==1:
+        print("ultimi anni di lavoro")
+        
+        promozioni=int(input("inserire il n° di promozioni"))
+        if promozioni>3:
+            print("capo d'azienda")
+        else:
+            print("pensione")
+         
+        
+    
+pensione()

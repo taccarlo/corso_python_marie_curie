@@ -1,10 +1,9 @@
 
 def funzione1():
     print("La persona è nata!")
-    print("La persona segtue le elementari e le medie")
+    print("La persona segue le elementari e le medie")
     n_bocciature=0
     anno_superiori=0
-    n_bocciature=0
     while True:
         print(f'segue il {anno_superiori} anno delle superiori')
         anno_superiori+=1
@@ -18,6 +17,22 @@ def funzione1():
                 return funzione2
                 
 
+               
+               
+               
+def funzione2:
+    lavoro=0
+    
+    while lavoro<=20:
+        lavoro=lavoro+1
+        print(lavoro, "anni di lavoro")
+    infortunio=int(input("presenza di infortunio delibitante? se si digita 1 altrimenti digita 0"))
+    if infortunio==1:
+        return "pensione" 
+    else:
+        return funzione3
+
+
 
 
 
@@ -29,6 +44,7 @@ def funzione1():
 
 #funzione 3, christian
 def funzione3():
+
     elif print("ultimi anni di lavoro")
     promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
     if promozioni >3:
