@@ -11,14 +11,14 @@ def Scuola():
         else:
             n_bocciature=n_bocciature+1 
         elif(n_bocciature>=3):
-            return(lavoro())
+            return(Lavoro())
 Scuola()
-def lavoro():
+def Lavoro():
 
 
 
 
-def pensione():
+def Pensione():
     infortunio=int(input("inserire se l'infortunio è delibitante oppure no    delibitante=0     non delibitante=1"))
     if infortunio==0:
         print("pensione")
@@ -33,4 +33,4 @@ def pensione():
          
         
     
-pensione()
+Pensione()
