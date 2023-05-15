@@ -24,25 +24,26 @@ def Funzione_1:
             if anno_superiori==5:
                 print("Finalmente vado a lavorare")
         N = N+1
-        break
+        return Funzione_2
 
+def Funzione_2:
 Anni di lavoro=0
 while Anni di lavoro < 20:
     Anni di lavoro = Anni di lavoro + 1
     print("L'anno lavorativo si conclude")
-else:
     infortunio = int(input("Subisci un infortunio debilitante? 0=sì 1=no"))
-    
-if infortunio==0:
-    print("vai in pensione")
-else: print("ultimi anni di lavoro")
+    if infortunio==0:
+        print("vai in pensione")
+    else:
+        print("ultimi anni di lavoro")
+    return Funzione_3
 
 
-    promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
-    if promozioni >3:
-        print("capo di azienda")
-                     print("pensione")
-        elif print("pensione")
+def Funzione_3:
+promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
+if promozioni >3:
+    print("capo di azienda")
+print("pensione")
 return       
         
         
