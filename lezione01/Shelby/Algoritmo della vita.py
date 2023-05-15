@@ -49,5 +49,4 @@ def funzione3():
     promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
     if promozioni >3:
         return "capo di azienda"
-    elif:
-        return "pensione"
+    return "pensione"
