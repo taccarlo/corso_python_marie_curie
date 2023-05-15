@@ -30,10 +30,13 @@ while Anni di lavoro < 20:
     Anni di lavoro = Anni di lavoro + 1
     print("L'anno lavorativo si conclude")
 else:
-    print("Subisci un infortunio debilitante")
+    infortunio = int(input("Subisci un infortunio debilitante? 0=sì 1=no"))
+    
+if infortunio==0:
+    print("vai in pensione")
+else: print("ultimi anni di lavoro")
 
-def Funzione_3:
-    elif print("ultimi anni di lavoro")
+
     promozioni = int(input("Quante promozioni sono state ottenute nel corso della carriera?")
     if promozioni >3:
         print("capo di azienda")
