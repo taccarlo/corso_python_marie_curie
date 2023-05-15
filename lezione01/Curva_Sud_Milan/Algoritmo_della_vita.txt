@@ -14,8 +14,16 @@ def Scuola():
             return(Lavoro())
 Scuola()
 def Lavoro():
-
-
+	anni_servizio=0
+    		while(anni_servizio>20):
+        		anni_servizio=anni_servizio+1
+    		print("20 anni di servizio")
+    	infortunio=int(input("Infortunio debilitante, 1=Sì 0=No"))
+    	if(Infortunio==0):
+        	Pensione()
+    	else:
+        	print("Pensione")
+Lavoro()
 
 
 def Pensione():
@@ -29,8 +37,5 @@ def Pensione():
         if promozioni>3:
             print("capo d'azienda")
         else:
-            print("pensione")
-         
-        
-    
+            print("Pensione")
 Pensione()
