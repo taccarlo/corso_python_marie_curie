@@ -1,0 +1,26 @@
+Ecco un esempio di consegna per un esercizio di programmazione semplice che richiede lo sviluppo di 3 funzioni distinte:
+
+**Descrizione dell'esercizio**
+
+Si desidera sviluppare un programma che converte i gradi Celsius in gradi Fahrenheit utilizzando tre funzioni distinte. La prima funzione, `get_celsius()`, chiede all'utente di inserire una temperatura in gradi Celsius. La seconda funzione, `convert_to_fahrenheit(celsius)`, converte la temperatura in gradi Fahrenheit e restituisce il risultato. La terza funzione, `print_result(fahrenheit)`, stampa il risultato in gradi Fahrenheit a schermo.
+
+**Specifiche**
+
+1. La funzione `get_celsius()` deve chiedere all'utente di inserire un valore in gradi Celsius utilizzando la funzione `input()`. Il valore inserito dall'utente deve essere restituito come valore di ritorno della funzione.
+
+2. La funzione `convert_to_fahrenheit(celsius)` deve accettare come parametro il valore in gradi Celsius e restituire il valore equivalente in gradi Fahrenheit utilizzando la formula `(celsius * 9/5) + 32`.
+
+3. La funzione `print_result(fahrenheit)` deve accettare come parametro il valore in gradi Fahrenheit e stamparlo a schermo con un messaggio appropriato, ad esempio "La temperatura in gradi Fahrenheit è: X", dove X è il valore della temperatura in gradi Fahrenheit.
+
+4. Il programma deve utilizzare le tre funzioni descritte sopra per ottenere l'input dell'utente, convertire i gradi Celsius in gradi Fahrenheit e stampare il risultato a schermo.
+
+**Esempio di output**
+
+```
+Inserisci la temperatura in gradi Celsius: 25
+La temperatura in gradi Fahrenheit è: 77.0
+```
+
+**Note**
+
+Assicurati di controllare l'input dell'utente per garantire che sia un valore numerico valido. In caso contrario, stampa un messaggio di errore e chiedi all'utente di inserire nuovamente il valore.
