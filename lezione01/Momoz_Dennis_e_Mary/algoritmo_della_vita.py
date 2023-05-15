@@ -19,6 +19,7 @@ def Funzione_1:
             anno_superiori = anno_superiori+1
             if anno_superiori ==5:
                 print("Finalmente vado a lavorare")
+        break
         
         
         
